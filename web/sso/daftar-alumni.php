@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <?php include "../partial/head-sso.php"?>
+    <style>
+      body {
+        background-image: url("../../assets/img/background-sso.svg");
+        background-position: center top; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      /* The message box is shown when the user clicks on the password field */
+      #message {
+        display:none;
+      }
+    </style>
+  </head>
+  <body class="mn-ht-100v d-flex flex-column">
+
+    <div class="content pd-0" style="position: relative">
+
+      <div class="content-body mg-t-30">
+        <div class="container pd-x-0" id="content">
+
+          <div class="row row-sm">
+            <div class="d-flex justify-content-center">
+              <div class="col-12 col-sm-9 col-md-7 col-lg-6 col-xl-5 pd-x-0">
+                <div class="d-flex justify-content-center mg-b-40 pd-y-10">
+                  <div class="d-flex align-items-center">
+                    <img src="../../assets/img/logo-myits-white.svg" class="ht-25 ht-md-30 mg-t-5">
+                    <p class="tx-poppins tx-medium tx-white tx-18 tx-md-22 tx-spacing-2 mg-b-0 mg-l-5 mg-md-l-10">SSO</p>
+                    <p class="tx-12 tx-color-03 mg-b-0 mg-l-10">1.0.0</p>
+                  </div>
+                </div>
+                <div class="card bd-0 shadow">
+                  <div class="card-header bd-0 pd-md-y-20 d-flex justify-content-between align-items-center">
+                    <div>
+                      <h5 class="tx-poppins tx-medium mg-b-0">Registrasi Alumni</h5>
+                      <p class="tx-13 tx-color-03 mg-b-0">Semua isian <b>wajib</b> diisi.</p>
+                    </div>
+                    <div class="dropdown dropdown-custom">
+                      <button class="btn btn-its-custom-1 tx-poppins tx-medium dropdown-toggle" type="button" id="dropdown-region" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ID
+                      </button>
+                      <div class="dropdown-menu rounded-its-10 blur-transparent" aria-labelledby="dropdown-region">
+                        <a class="dropdown-item" href="#">ID - Bahasa Indonesia</a>
+                        <a class="dropdown-item" href="#">EN - English</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body bd-0 pd-t-0">
+                    <form action="daftar-2.php">
+                      <div class="form-group form-floating">
+                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Lengkap" required>
+                        <label for="nama">Nama Lengkap</label>
+                      </div>
+                      <div class="form-group form-floating">
+                        <input type="email" class="form-control" id="email-1" name="email_1" placeholder="Email" required>
+                        <label for="email-1">Email</label>
+                      </div>
+                      <div class="form-group form-floating">
+                        <input type="email" class="form-control" id="email-2" name="email_2" placeholder="Ulangi Email" required>
+                        <label for="email-2">Ulangi Email</label>
+                      </div>
+                      <div class="form-group form-floating">
+                        <input type="number" class="form-control" id="no_telp" name="no_telp" placeholder="Nomor Telepon" required>
+                        <label for="no_telp">Nomor Telepon</label>
+                      </div>
+                      <!-- <div class="form-group">
+                        <div class="form-floating pos-relative">
+                          <input type="password" class="form-control" id="password-field-2" name="psw-2" placeholder="Aa" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Harus terdiri dari 8 karakter huruf kecil, huruf besar dan angka." required>
+                          <label for="password-field-2">Kata Sandi Baru</label>
+                          <a href="#" toggle="#password-field-2" class="badge badge-its-link-3 tx-poppins tx-medium tx-14 pos-absolute t-20 r-15 toggle-password-2"> Lihat </a>
+                        </div>
+                        <div id="message" class="mg-t-5">
+                          <span id="letter" class="badge badge-danger-transparent tx-12">Huruf kecil</span>
+                          <span id="capital" class="badge badge-danger-transparent tx-12">Huruf besar</span>
+                          <span id="number" class="badge badge-danger-transparent tx-12">Angka</span>
+                          <span id="length" class="badge badge-danger-transparent tx-12">Minimal 8 karakter</span>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="form-floating pos-relative">
+                          <input type="password" class="form-control" id="password-field-3" name="psw-3" placeholder="Aa" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                          <label for="password-field-3">Ulangi Kata Sandi Baru</label>
+                          <a href="#" toggle="#password-field-3" class="badge badge-its-link-3 tx-poppins tx-medium tx-14 pos-absolute t-20 r-15 toggle-password-3"> Lihat </a>
+                        </div>
+                        <div class="mg-b-20 mg-t-5">
+                          <div class="badge badge-danger-transparent tx-12" id="divCheckPasswordMatch"></div>
+                        </div>
+                      </div> -->
+                      <p class="tx-poppins tx-medium tx-15">Kelahiran</p>
+                      <div class="form-group form-floating">
+                        <input type="date" class="form-control" id="tgl_lahir" name="tgl_lahir" placeholder="Tanggal Lahir" required>
+                        <label for="tgl_lahir">Tanggal Lahir</label>
+                      </div>
+                      <p class="tx-poppins tx-medium tx-15">Jenis Kelamin</p>
+                      <div class="form-row">
+                        <div class="col-6 form-group">
+                          <label for="a">
+                            <input type="radio" name="jk" class="radio-button-its-element" id="a" required>
+                              <div class="radio-button-its">
+                                <div class="dot mg-r-10"></div>
+                                <span>Laki-laki</span>
+                              </div>
+                          </label>
+                        </div>
+                        <div class="col-6 form-group">
+                          <label for="b">
+                            <input type="radio" name="jk" class="radio-button-its-element" id="b">
+                              <div class="radio-button-its">
+                                <div class="dot mg-r-10"></div>
+                                <span>Perempuan</span>
+                              </div>
+                          </label>
+                        </div>
+                      </div>
+                      <p class="tx-poppins tx-medium tx-15">Captcha</p>
+                      <div class="form-row">
+                        <div class="col-6 form-group">
+                          <div class="form-floating">
+                            <input type="text" class="form-control" id="captcha" name="captcha" placeholder="Captcha" required>
+                            <label for="captcha">Captcha</label>
+                          </div>
+                        </div>
+                        <div class="col-6 form-group">
+                          Gambar
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-end align-items-center">
+                        <a type="button" href="daftar.php" class="btn btn-its-custom-1 tx-poppins tx-medium mg-r-5">Kembali</a>
+                        <button type="submit" class="btn btn-its-3 tx-poppins tx-medium">Daftar</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pos-fixed t-40 r-15 z-index-10" style="width: auto;">
+              <div class="toast mg-l-auto" data-autohide="false">
+                <div class="toast-header">
+                  <span class="mr-auto tx-poppins tx-medium tx-color-01">Notifikasi</span>
+                  <small class="text-muted">Baru saja</small>
+                  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+                </div>
+                <div class="toast-body">
+                  <ion-icon name="warning" class="tx-orange tx-20 mg-r-5"></ion-icon>
+                  <p class="tx-medium mg-b-0">Email Telah Terdaftar</p>
+                  <p class="mg-b-0">Email yang Anda masukkan telah terdaftar di myITS SSO. Coba email yang lain.</p>
+                </div>
+              </div>
+              <div class="toast mg-l-auto" data-autohide="false">
+                <div class="toast-header">
+                  <span class="mr-auto tx-poppins tx-medium tx-color-01">Notifikasi</span>
+                  <small class="text-muted">Baru saja</small>
+                  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+                </div>
+                <div class="toast-body">
+                  <ion-icon name="warning" class="tx-orange tx-20 mg-r-5"></ion-icon>
+                  <p class="tx-medium mg-b-0">Nomor Telepon Telah Terdaftar</p>
+                  <p class="mg-b-0">Nomor telepon yang Anda masukkan telah terdaftar di myITS SSO. Coba nomor yang lain.</p>
+                </div>
+              </div>
+              <div class="toast mg-l-auto" data-autohide="false">
+                <div class="toast-header">
+                  <span class="mr-auto tx-poppins tx-medium tx-color-01">Notifikasi</span>
+                  <small class="text-muted">Baru saja</small>
+                  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+                </div>
+                <div class="toast-body">
+                  <ion-icon name="warning" class="tx-orange tx-20 mg-r-5"></ion-icon>
+                  <p class="tx-medium mg-b-0">Captcha Salah</p>
+                  <p class="mg-b-0">Pastikan penulisan sudah benar.</p>
+                </div>
+              </div>
+              <div class="toast mg-l-auto" data-autohide="false">
+                <div class="toast-header">
+                  <span class="mr-auto tx-poppins tx-medium tx-color-01">Notifikasi</span>
+                  <small class="text-muted">Baru saja</small>
+                  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+                </div>
+                <div class="toast-body">
+                  <ion-icon name="warning" class="tx-orange tx-20 mg-r-5"></ion-icon>
+                  <p class="tx-medium mg-b-0">Email Telah Terdaftar</p>
+                  <p class="mg-b-0">Email yang Anda masukkan telah terdaftar di myITS SSO, namun akun belum aktif. Silakan aktifkan akun melalui email verifikasi yang telah kami kirimkan.</p>
+                </div>
+              </div>
+              <div class="toast mg-l-auto" data-autohide="false">
+                <div class="toast-header">
+                  <span class="mr-auto tx-poppins tx-medium tx-color-01">Notifikasi</span>
+                  <small class="text-muted">Baru saja</small>
+                  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+                </div>
+                <div class="toast-body">
+                  <ion-icon name="warning" class="tx-orange tx-20 mg-r-5"></ion-icon>
+                  <p class="tx-medium mg-b-0">Email Telah Terdaftar</p>
+                  <p class="mg-b-0">Email yang Anda masukkan telah terdaftar di myITS SSO, namun akun belum aktif. Silakan aktifkan akun melalui email verifikasi yang telah kami kirimkan.</p>
+                  <!-- <hr class="bd-1 mg-y-10"> -->
+                  <div class="pd-10 bd bg-black-1 rounded-its-6 mg-t-5">
+                    <p class="mg-b-0">Jika anda belum menerima email verifikasi, silakan klik tombol berikut.</p>
+                    <form>
+                      <button type="submit" class="btn btn-its-3 tx-poppins tx-medium mg-t-5">Kirim Ulang Verifikasi</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- row -->
+        </div><!-- container -->
+      </div>
+    </div>
+    <?php include "../partial/footer-sso.php" ?>
+    
+    <?php include "../partial/script.php" ?>
+
+    <script>
+      $(document).ready(function(){
+        $('.toast').toast('show');
+      });
+    </script>
+    <script>
+      $(".toggle-password-1").click(function() {
+
+        var input = $($(this).attr("toggle"));
+        if (input.attr("type") == "password") {
+          input.attr("type", "text");
+        } else {
+          input.attr("type", "password");
+        }
+      });
+    </script>
+    <script>
+      $(".toggle-password-2").click(function() {
+
+        var input = $($(this).attr("toggle"));
+        if (input.attr("type") == "password") {
+          input.attr("type", "text");
+        } else {
+          input.attr("type", "password");
+        }
+      });
+    </script>
+    <script>
+      $(".toggle-password-3").click(function() {
+
+        var input = $($(this).attr("toggle"));
+        if (input.attr("type") == "password") {
+          input.attr("type", "text");
+        } else {
+          input.attr("type", "password");
+        }
+      });
+    </script>
+    <script>
+      function checkPasswordMatch() {
+        var password = $("#password-field-2").val();
+        var confirmPassword = $("#password-field-3").val();
+
+        if (password != confirmPassword)
+          $("#divCheckPasswordMatch").html("Kata sandi tidak cocok").removeClass('badge badge-danger-transparent').addClass('badge badge-danger-transparent');
+        else if ((password ==  "") || (confirmPassword == "")) 
+          $("#divCheckPasswordMatch").html("");
+        else
+          $("#divCheckPasswordMatch").html("Kata sandi cocok").removeClass('badge badge-danger-transparent').addClass('badge badge-success-transparent');
+      }
+
+      $(document).ready(function () {
+        $("#password-field-2, #password-field-3").keyup(checkPasswordMatch);
+      });
+    </script>
+
+    <script>
+      var myInput = document.getElementById("password-field-2");
+      var letter = document.getElementById("letter");
+      var capital = document.getElementById("capital");
+      var number = document.getElementById("number");
+      var length = document.getElementById("length");
+
+      // When the user clicks on the password field, show the message box
+      myInput.onfocus = function() {
+        document.getElementById("message").style.display = "block";
+      }
+
+      // When the user clicks outside of the password field, hide the message box
+      myInput.onblur = function() {
+        document.getElementById("message").style.display = "block";
+      }
+
+      // When the user starts to type something inside the password field
+      myInput.onkeyup = function() {
+        // Validate lowercase letters
+        var lowerCaseLetters = /[a-z]/g;
+        if(myInput.value.match(lowerCaseLetters)) {  
+          letter.classList.remove("badge-danger-transparent");
+          letter.classList.add("badge-success-transparent");
+        } else {
+          letter.classList.remove("badge-success-transparent");
+          letter.classList.add("badge-danger-transparent");
+        }
+        
+        // Validate capital letters
+        var upperCaseLetters = /[A-Z]/g;
+        if(myInput.value.match(upperCaseLetters)) {  
+          capital.classList.remove("badge-danger-transparent");
+          capital.classList.add("badge-success-transparent");
+        } else {
+          capital.classList.remove("badge-success-transparent");
+          capital.classList.add("badge-danger-transparent");
+        }
+
+        // Validate numbers
+        var numbers = /[0-9]/g;
+        if(myInput.value.match(numbers)) {  
+          number.classList.remove("badge-danger-transparent");
+          number.classList.add("badge-success-transparent");
+        } else {
+          number.classList.remove("badge-success-transparent");
+          number.classList.add("badge-danger-transparent");
+        }
+        
+        // Validate length
+        if(myInput.value.length >= 8) {
+          length.classList.remove("badge-danger-transparent");
+          length.classList.add("badge-success-transparent");
+        } else {
+          length.classList.remove("badge-success-transparent");
+          length.classList.add("badge-danger-transparent");
+        }
+      }
+    </script>
+    
+
+  </body>
+</html>

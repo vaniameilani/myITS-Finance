@@ -1,0 +1,19 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M89.4057 91.7917C-23.9952 214.987 -27.5118 417.851 81.5512 544.903L539.879 1078.82L931.8 610.95L492.228 98.7932C383.168 -28.2756 202.813 -31.4104 89.4057 91.7917Z" fill="#2B9348"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M990.397 91.3506C1103.81 214.562 1107.33 417.453 998.253 544.522L539.95 1078.42L143 615.999L587.573 98.2917C696.657 -28.7373 876.996 -31.8447 990.397 91.3506Z" fill="url(#paint0_linear_309_53)"/>
+<g filter="url(#filter0_f_309_53)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M757.621 193C736.046 193 718.556 210.49 718.556 232.065V327.556H623.065C601.49 327.556 584 345.046 584 366.621C584 388.196 601.49 405.686 623.065 405.686H718.556V501.177C718.556 522.752 736.046 540.242 757.621 540.242C779.196 540.242 796.686 522.752 796.686 501.177V405.686H892.177C913.752 405.686 931.242 388.196 931.242 366.621C931.242 345.046 913.752 327.556 892.177 327.556H796.686V232.065C796.686 210.49 779.196 193 757.621 193Z" fill="black" fill-opacity="0.25"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M758.379 170C736.804 170 719.314 187.49 719.314 209.065V304.556H623.823C602.248 304.556 584.758 322.046 584.758 343.621C584.758 365.196 602.248 382.686 623.823 382.686H719.314V478.177C719.314 499.752 736.804 517.242 758.379 517.242C779.954 517.242 797.444 499.752 797.444 478.177V382.686H892.935C914.51 382.686 932 365.196 932 343.621C932 322.046 914.51 304.556 892.935 304.556H797.444V209.065C797.444 187.49 779.954 170 758.379 170Z" fill="white"/>
+<defs>
+<filter id="filter0_f_309_53" x="484" y="93" width="547.242" height="547.242" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_309_53"/>
+</filter>
+<linearGradient id="paint0_linear_309_53" x1="610" y1="745.5" x2="902.669" y2="-177.557" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2B9348"/>
+<stop offset="1" stop-color="#AACC00"/>
+</linearGradient>
+</defs>
+</svg>
