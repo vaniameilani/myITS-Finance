@@ -31,7 +31,7 @@
       <div class="row">
         <ul id="myMenu" class="list-unstyled">
           <div class="media align-items-center">
-            <div class="col-12 col-sm-6 col-md-5 col-lg-5 col-xl-5">
+            <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5">
               <div class="card bd-0 mg-b-10 mg-md-b-20">
                 <li><a href="../keuangan/mata-anggaran.php" >
                   <div class="rounded-its-10 hover-its-1">
@@ -48,7 +48,7 @@
                 </li></a>
               </div>
             </div>
-          
+            <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5">
               <div class="card bd-0 mg-b-10 mg-md-b-20">
                 <li><a href="https://google.com" >
                   <div class="rounded-its-10 hover-its-1">
@@ -64,10 +64,11 @@
                   </div>
                 </li></a>
               </div>
+            </div>
           </div> 
 
           <div class="media align-items-center">
-            <div class="col-12 col-sm-6 col-md-5 col-lg-5 col-xl-5">
+            <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5">
               <div class="card bd-0 mg-b-10 mg-md-b-20">
                 <li><a href="https://google.com" >
                   <div class="rounded-its-10 hover-its-1">
@@ -84,7 +85,7 @@
                 </li></a>
               </div>
             </div>
-          
+            <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5">
               <div class="card bd-0 mg-b-10 mg-md-b-20">
                 <li><a href="https://google.com" >
                   <div class="rounded-its-10 hover-its-1">
@@ -99,11 +100,12 @@
                     </div>
                   </div>
                 </li></a>
-              </div>            
+              </div>
+            </div>            
           </div> 
 
           <div class="media align-items-center">
-            <div class="col-12 col-sm-6 col-md-5 col-lg-5 col-xl-5">
+            <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5">
               <div class="card bd-0 mg-b-10 mg-md-b-20">
                 <li><a href="https://google.com" >
                   <div class="rounded-its-10 hover-its-1">
@@ -120,7 +122,7 @@
                 </li></a>
               </div>
             </div>
-          
+            <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5">
               <div class="card bd-0 mg-b-10 mg-md-b-20">
                 <li><a href="https://google.com" >
                   <div class="rounded-its-10 hover-its-1">
@@ -136,6 +138,7 @@
                   </div>
                 </li></a>
               </div>
+            </div>
           </div> 
           
         
