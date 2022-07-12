@@ -471,6 +471,40 @@
     
     <?php include "../partial/script.php" ?>
 
+    <script src="../../lib/select2/js/select2.min.js"></script>
+    <script src="../../lib/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../../lib/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script>
+      $(function(){
+        'use strict'
+
+        $('#example1').DataTable({
+          language: {
+            lengthMenu: '_MENU_ data/halaman',
+            searchPlaceholder: 'Cari',
+            sSearch: '',
+            zeroRecords: 'Tidak ada data.',
+            infoEmpty: 'Tidak ada data.',
+            info: 'Menampilkan halaman _PAGE_ dari _PAGES_',
+            infoFiltered: '(filtered from _MAX_ total records)',
+            paginate: { 'first': '<i class="fas fa-angle-double-left"></i>',
+                        'last': '<i class="fas fa-angle-double-right"></i>',
+                        'next': '<i class="fas fa-angle-right"></i>',
+                        'previous': '<i class="fas fa-angle-left"></i>'
+                      },
+          },
+          responsive: true,
+          columnDefs: [
+            { orderable: false, targets: -1 }
+          ]
+        });
+
+        // Select2
+        $('.dataTables_length select').select2({ minimumResultsForSearch: Infinity });
+
+      });
+    </script>
+
 
   </body>
 </html>
