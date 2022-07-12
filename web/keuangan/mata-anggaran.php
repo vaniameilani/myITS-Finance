@@ -77,8 +77,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">11</p>
@@ -104,8 +103,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">111</p>
@@ -131,8 +129,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">111611</p>
@@ -158,8 +155,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">111611</p>
@@ -185,8 +181,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">111611.111</p>
@@ -212,8 +207,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">111611.1111.01</p>
@@ -239,8 +233,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">11192</p>
@@ -266,8 +259,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">111921</p>
@@ -293,8 +285,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">111921.111</p>
@@ -320,8 +311,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="tx-semibold mg-b-0" style="color: #1878F2;">111921.1119.01</p>
@@ -348,7 +338,6 @@
                           </td>
                         </tr>
                       </tbody>
-
                     </table>
                   </div>
                 </div>
@@ -481,39 +470,7 @@
     <?php include "../partial/footer.php" ?>
     
     <?php include "../partial/script.php" ?>
-    <script src="../../lib/select2/js/select2.min.js"></script>
-    <script src="../../lib/datatables.net/js/jquery.dataTables.min.js"></script>
-    <script src="../../lib/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-    <script>
-      $(function(){
-        'use strict'
 
-        $('#example1').DataTable({
-          language: {
-            lengthMenu: '_MENU_ data/halaman',
-            searchPlaceholder: 'Cari',
-            sSearch: '',
-            zeroRecords: 'Tidak ada data.',
-            infoEmpty: 'Tidak ada data.',
-            info: 'Menampilkan halaman _PAGE_ dari _PAGES_',
-            infoFiltered: '(filtered from _MAX_ total records)',
-            paginate: { 'first': '<i class="fas fa-angle-double-left"></i>',
-                        'last': '<i class="fas fa-angle-double-right"></i>',
-                        'next': '<i class="fas fa-angle-right"></i>',
-                        'previous': '<i class="fas fa-angle-left"></i>'
-                      },
-          },
-          responsive: true,
-          columnDefs: [
-            { orderable: false, targets: -1 }
-          ]
-        });
-
-        // Select2
-        $('.dataTables_length select').select2({ minimumResultsForSearch: Infinity });
-
-      });
-    </script>
 
   </body>
 </html>

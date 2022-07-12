@@ -11,9 +11,9 @@
         <ul class="sidebar-nav">
             <li class="nav-item"><a href="../beranda" class="nav-link-its d-flex justify-content-start align-items-center"><img src="../../assets/img/home.svg" class="wd-20 mg-r-15"><span class="tx-poppins tx-medium text-truncate">Beranda</span></a></li>
             <li class="nav-item"><a href="../keuangan" class="nav-link-its d-flex justify-content-start align-items-center"><img src="../../assets/img/icon-app/ITS-Tarif.svg" class="wd-20 mg-r-15"><span class="tx-poppins tx-medium text-truncate">Keuangan</span></a></li>
-            <li class="nav-item"><a href="../agenda" class="nav-link-its d-flex justify-content-start align-items-center"><img src="../../assets/img/folder.svg" class="wd-20 mg-r-15"><span class="tx-poppins tx-medium text-truncate">Data Referensi</span></a></li>
-            <li class="nav-item"><a href="../pengumuman" class="nav-link-its d-flex justify-content-start align-items-center"><img src="../../assets/img/icon-app/Manajemen-SK.svg" class="wd-20 mg-r-15"><span class="tx-poppins tx-medium text-truncate">Laporan</span></a></li>
-            <li class="nav-item"><a href="../admin" class="nav-link-its d-flex justify-content-start align-items-center"><img src="../../assets/img/setting.svg" class="wd-20 mg-r-15"><span class="tx-poppins tx-medium text-truncate">Pengaturan</span></a></li>
+            <li class="nav-item"><a href="../data-referensi"class="nav-link-its d-flex justify-content-start align-items-center"><img src="../../assets/img/folder.svg" class="wd-20 mg-r-15"><span class="tx-poppins tx-medium text-truncate">Data Referensi</span></a></li>
+            <li class="nav-item"><a href="../laporan-perencanaan" class="nav-link-its d-flex justify-content-start align-items-center"><img src="../../assets/img/icon-app/Manajemen-SK.svg" class="wd-20 mg-r-15"><span class="tx-poppins tx-medium text-truncate">Laporan</span></a></li>
+            <li class="nav-item"><a href="../pengaturan" class="nav-link-its d-flex justify-content-start align-items-center"><img src="../../assets/img/setting.svg" class="wd-20 mg-r-15"><span class="tx-poppins tx-medium text-truncate">Pengaturan</span></a></li>
         </ul>
     </div>
 </div><!-- off-canvas -->

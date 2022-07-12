@@ -4,6 +4,7 @@
     <?php include "../partial/head.php"?>
     <link href="../../lib/select2/css/select2.min.css" rel="stylesheet">
     <link href="../../lib/datatables.net-responsive-dt/css/responsive.dataTables.min.css" rel="stylesheet">
+    <link href="../../assets/css/switch.css" rel="stylesheet">
   </head>
   <body class="mn-ht-100v d-flex flex-column">
     <?php include "../partial/navbar.php"?>
@@ -67,20 +68,16 @@
                             <p class="mg-b-0">ITS</p>
                           </td>
                           <td class="table-its">                            
-                            <!-- <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start"> -->
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
-                              <!-- <div class="custom-control custom-switch">
-                                <input type="checkbox" class="custom-control-input" id="customSwitch3" checked>
-                                <label class="custom-control-label" for="customSwitch3"></label>
-                              </div> -->
-                            <!-- </div> -->
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
+                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
+                              <label class="tgl-btn" for="cb2"></label>
+                            </div>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">11</p>
@@ -90,15 +87,15 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
+                            <input class="tgl tgl-ios" id="cb2" type="checkbox" checked>
+                            <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0" style="color: #10B759; font-weight: 600;">Terbuka</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">111</p>
@@ -108,15 +105,15 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
+                               <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
+                              <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">1111</p>
@@ -126,15 +123,15 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
+                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
+                              <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">111100000</p>
@@ -144,15 +141,15 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
+                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
+                              <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">111200000</p>
@@ -162,15 +159,15 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
+                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
+                              <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">111300000</p>
@@ -180,15 +177,15 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
+                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
+                              <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">111400000</p>
@@ -198,15 +195,15 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
+                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
+                              <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">111500000</p>
@@ -216,15 +213,15 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
+                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
+                              <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">112100000</p>
@@ -234,7 +231,8 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <!-- <a href="" class="btn btn-its-3 d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a> -->
+                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
+                              <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">

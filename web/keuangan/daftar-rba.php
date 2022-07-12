@@ -47,8 +47,8 @@
                     <table id="example1" class="table table-hover table-borderless" style="width:100%">
                       <thead>
                         <tr>
-                          <th class="table-its wd-10p">No</th>
-                          <th class="table-its wd-10p">Program Kerja</th>
+                          <th class="table-its wd-5p">No</th>
+                          <th class="table-its wd-15p">Program Kerja</th>
                           <th class="table-its wd-30p">Kegiatan dan Aktivitas</th>
                           <th class="table-its wd-15p">Unit</th>
                           <th class="table-its wd-10p">Mata Uang</th>
@@ -88,8 +88,7 @@
                             <p class="mg-b-0">-</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">2</p>
@@ -118,8 +117,7 @@
                             <p class="mg-b-0"><span class="badge badge-danger-transparent rounded-its-50 tx-poppins tx-semibold tx-12 mg-l-5">Terblokir</span></p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">3</p>
@@ -148,8 +146,7 @@
                             <p class="mg-b-0">-</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">4</p>
@@ -178,8 +175,7 @@
                             <p class="mg-b-0"><span class="badge badge-danger-transparent rounded-its-50 tx-poppins tx-semibold tx-12 mg-l-5">Terblokir</span></p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">5</p>
