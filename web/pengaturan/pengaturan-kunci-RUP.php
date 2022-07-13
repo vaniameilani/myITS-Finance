@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <?php include "../partial/head.php"?>
+    
     <link href="../../lib/select2/css/select2.min.css" rel="stylesheet">
-    <link href="../../lib/datatables.net-responsive-dt/css/responsive.dataTables.min.css" rel="stylesheet">
     <link href="../../assets/css/switch.css" rel="stylesheet">
+    <link href="../../lib/datatables.net-responsive-dt/css/responsive.dataTables.min.css" rel="stylesheet">
+
+
   </head>
   <body class="mn-ht-100v d-flex flex-column">
     <?php include "../partial/navbar.php"?>

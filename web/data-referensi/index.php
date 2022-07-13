@@ -87,7 +87,7 @@
             </div>
             <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5">
               <div class="card bd-0 mg-b-10 mg-md-b-20">
-                <li><a href="https://google.com" >
+                <li><a href="../data-referensi/satuan.php" >
                   <div class="rounded-its-10 hover-its-1">
                     <div class="media align-items-center">
                       <div class="card-header bd-0 pd-md-y-20">

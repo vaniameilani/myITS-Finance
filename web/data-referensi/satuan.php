@@ -62,8 +62,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">Halaman</p>
@@ -80,8 +79,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">Hari</p>
@@ -98,8 +96,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">Himpunen</p>
@@ -116,8 +113,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">Kegiatan</p>
@@ -134,8 +130,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">Komponen</p>
@@ -152,8 +147,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">Khdrn</p>
@@ -170,8 +164,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">Lbr</p>
@@ -188,8 +181,7 @@
                             </div>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">Liter</p>
