@@ -82,8 +82,7 @@
                             <p class="mg-b-0">Rp500.000.000,00</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">2</p>
@@ -107,8 +106,7 @@
                             <p class="mg-b-0">Rp270.033.500,00</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">3</p>
@@ -132,8 +130,7 @@
                             <p class="mg-b-0">Rp250.000.000,00</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">4</p>
@@ -157,8 +154,7 @@
                             <p class="mg-b-0">Rp500.000.000,00</p>
                           </td>
                         </tr>
-                      </tbody>
-                      <tbody>
+
                         <tr class="bd-b">
                           <td class="table-its">
                             <p class="mg-b-0">4</p>
