@@ -72,12 +72,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
-                              <label class="tgl-btn" for="cb2"></label>
+                              <input class="tgl tgl-ios" id="cb1" type="checkbox" onclick="Switch1()">
+                              <label class="tgl-btn" for="cb1"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
+                            <p class="mg-b-0" id="outcb1-c" style="color: #7987A1; font-weight: 500; display:block">Tertutup</p>
+                            <p class="mg-b-0" id="outcb1-o" style="color: #10B759; font-weight: 600; display:none">Terbuka</p>                            
                           </td>
                         </tr>
 
@@ -90,12 +91,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                            <input class="tgl tgl-ios" id="cb2" type="checkbox" checked>
+                            <input class="tgl tgl-ios" id="cb2" type="checkbox" checked onclick="Switch2()">
                             <label class="tgl-btn" for="cb2"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #10B759; font-weight: 600;">Terbuka</p>
+                            <p class="mg-b-0" id="outcb2-c" style="color: #7987A1; font-weight: 500; display:none">Tertutup</p>
+                            <p class="mg-b-0" id="outcb2-o" style="color: #10B759; font-weight: 600; display:block">Terbuka</p>
                           </td>
                         </tr>
 
@@ -108,12 +110,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                               <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
-                              <label class="tgl-btn" for="cb2"></label>
+                               <input class="tgl tgl-ios" id="cb3" type="checkbox" unchecked onclick="Switch3()">
+                              <label class="tgl-btn" for="cb3"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
+                            <p class="mg-b-0" id="outcb3-c" style="color: #7987A1; font-weight: 500; display:block">Tertutup</p>
+                            <p class="mg-b-0" id="outcb3-o" style="color: #10B759; font-weight: 600; display:none">Terbuka</p>
                           </td>
                         </tr>
 
@@ -126,12 +129,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
-                              <label class="tgl-btn" for="cb2"></label>
+                              <input class="tgl tgl-ios" id="cb4" type="checkbox" unchecked onclick="Switch4()">
+                              <label class="tgl-btn" for="cb4"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
+                            <p class="mg-b-0" id="outcb4-c" style="color: #7987A1; font-weight: 500; display:block">Tertutup</p>
+                            <p class="mg-b-0" id="outcb4-o" style="color: #10B759; font-weight: 600; display:none">Terbuka</p>
                           </td>
                         </tr>
 
@@ -144,12 +148,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
-                              <label class="tgl-btn" for="cb2"></label>
+                              <input class="tgl tgl-ios" id="cb5" type="checkbox" unchecked onclick="Switch5()">
+                              <label class="tgl-btn" for="cb5"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
+                            <p class="mg-b-0" id="outcb5-c" style="color: #7987A1; font-weight: 500; display:block">Tertutup</p>
+                            <p class="mg-b-0" id="outcb5-o" style="color: #10B759; font-weight: 600; display:none">Terbuka</p>
                           </td>
                         </tr>
 
@@ -162,12 +167,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
-                              <label class="tgl-btn" for="cb2"></label>
+                              <input class="tgl tgl-ios" id="cb6" type="checkbox" unchecked onclick="Switch6()">
+                              <label class="tgl-btn" for="cb6"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
+                            <p class="mg-b-0" id="outcb6-c" style="color: #7987A1; font-weight: 500; display:block">Tertutup</p>
+                            <p class="mg-b-0" id="outcb6-o" style="color: #10B759; font-weight: 600; display:none">Terbuka</p>
                           </td>
                         </tr>
 
@@ -180,12 +186,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
-                              <label class="tgl-btn" for="cb2"></label>
+                              <input class="tgl tgl-ios" id="cb7" type="checkbox" unchecked onclick="Switch7()">
+                              <label class="tgl-btn" for="cb7"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
+                            <p class="mg-b-0" id="outcb7-c" style="color: #7987A1; font-weight: 500; display:block">Tertutup</p>
+                            <p class="mg-b-0" id="outcb7-o" style="color: #10B759; font-weight: 600; display:none">Terbuka</p>
                           </td>
                         </tr>
 
@@ -198,12 +205,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
-                              <label class="tgl-btn" for="cb2"></label>
+                              <input class="tgl tgl-ios" id="cb8" type="checkbox" unchecked onclick="Switch8()">
+                              <label class="tgl-btn" for="cb8"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
+                            <p class="mg-b-0" id="outcb8-c" style="color: #7987A1; font-weight: 500; display:block">Tertutup</p>
+                            <p class="mg-b-0" id="outcb8-o" style="color: #10B759; font-weight: 600; display:none">Terbuka</p>
                           </td>
                         </tr>
 
@@ -216,12 +224,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
-                              <label class="tgl-btn" for="cb2"></label>
+                              <input class="tgl tgl-ios" id="cb9" type="checkbox" unchecked onclick="Switch9()">
+                              <label class="tgl-btn" for="cb9"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
+                            <p class="mg-b-0" id="outcb9-c" style="color: #7987A1; font-weight: 500; display:block">Tertutup</p>
+                            <p class="mg-b-0" id="outcb9-o" style="color: #10B759; font-weight: 600; display:none">Terbuka</p>
                           </td>
                         </tr>
 
@@ -234,12 +243,13 @@
                           </td>
                           <td class="table-its">                            
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
-                              <input class="tgl tgl-ios" id="cb2" type="checkbox" unchecked>
-                              <label class="tgl-btn" for="cb2"></label>
+                              <input class="tgl tgl-ios" id="cb10" type="checkbox" unchecked onclick="Switch10()">
+                              <label class="tgl-btn" for="cb10"></label>
                             </div>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0" style="color: #7987A1; font-weight: 500;">Tertutup</p>
+                            <p class="mg-b-0" id="outcb10-c" style="color: #7987A1; font-weight: 500; display:block">Tertutup</p>
+                            <p class="mg-b-0" id="outcb10-o" style="color: #10B759; font-weight: 600; display:none">Terbuka</p>
                           </td>
                         </tr>
                       </tbody>
@@ -290,6 +300,148 @@
 
       });
     </script>
+    <script>
+      function Switch1(){
+        var checkBox = document.getElementById("cb1");
+        var textc = document.getElementById("outcb1-c");
+        var texto = document.getElementById("outcb1-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    <script>
+      function Switch2(){
+        var checkBox = document.getElementById("cb2");
+        var textc = document.getElementById("outcb2-c");
+        var texto = document.getElementById("outcb2-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    <script>
+      function Switch3(){
+        var checkBox = document.getElementById("cb3");
+        var textc = document.getElementById("outcb3-c");
+        var texto = document.getElementById("outcb3-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    <script>
+      function Switch4(){
+        var checkBox = document.getElementById("cb4");
+        var textc = document.getElementById("outcb4-c");
+        var texto = document.getElementById("outcb4-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    <script>
+      function Switch5(){
+        var checkBox = document.getElementById("cb5");
+        var textc = document.getElementById("outcb5-c");
+        var texto = document.getElementById("outcb5-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    <script>
+      function Switch6(){
+        var checkBox = document.getElementById("cb6");
+        var textc = document.getElementById("outcb6-c");
+        var texto = document.getElementById("outcb6-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    <script>
+      function Switch7(){
+        var checkBox = document.getElementById("cb7");
+        var textc = document.getElementById("outcb7-c");
+        var texto = document.getElementById("outcb7-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    <script>
+      function Switch8(){
+        var checkBox = document.getElementById("cb8");
+        var textc = document.getElementById("outcb8-c");
+        var texto = document.getElementById("outcb8-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    <script>
+      function Switch9(){
+        var checkBox = document.getElementById("cb9");
+        var textc = document.getElementById("outcb9-c");
+        var texto = document.getElementById("outcb9-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    <script>
+      function Switch10(){
+        var checkBox = document.getElementById("cb10");
+        var textc = document.getElementById("outcb10-c");
+        var texto = document.getElementById("outcb10-o");
+          if (checkBox.checked == true){
+          textc.style.display = "none";
+          texto.style.display = "block";
+          } else {
+          textc.style.display = "block";
+          texto.style.display = "none";
+          }
+        }   
+    </script>
+    
+    
 
   </body>
 </html>
