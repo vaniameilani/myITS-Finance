@@ -149,7 +149,7 @@
                         <div class="mg-t-20">
                           <button type="submit" class="btn btn-its-3 tx-poppins tx-medium float-right">Simpan</button>
                           <a href="../keuangan/daftar-rba.php" type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-right mg-r-8" data-dismiss="modal">Batal</a>
-                          <button onclick="history.back()"type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-left" data-dismiss="modal" data-animation="effect-scale" style="background-color: #F5F6FA;"><ion-icon name="arrow-back-outline" class="mg-y-1 tx-18 mg-r-10"></ion-icon>Sebelumnya</a>
+                          <button onclick="history.back()" type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-left" data-dismiss="modal" data-animation="effect-scale" style="background-color: #F5F6FA;"><ion-icon name="arrow-back-outline" class="mg-y-1 tx-18 mg-r-10"></ion-icon>Sebelumnya</a>
                         </div>
                     </form>
                   </div>
