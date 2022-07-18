@@ -104,7 +104,7 @@
                             </div>
                         </div>              
                         <!-- <a href="#kegiatan-tambah" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center mg-r-10" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="mg-y-2 tx-18 mg-r-10"></ion-icon>Tambah RBA</a> -->
-                        <button type="submit" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center float-right" data-toggle="modal" data-animation="effect-scale">Selanjutnya<ion-icon name="arrow-forward-outline" class="mg-y-1 tx-18 mg-l-10"></ion-icon></button>
+                        <button formaction="../keuangan/tambah-rba-2.php" type="submit" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center float-right" data-toggle="modal" data-animation="effect-scale">Selanjutnya<ion-icon name="arrow-forward-outline" class="mg-y-1 tx-18 mg-l-10"></ion-icon></button>
                     </form>
                   </div>
                 </div>
