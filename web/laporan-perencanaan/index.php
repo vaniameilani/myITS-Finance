@@ -4,7 +4,7 @@
     <?php include "../partial/head.php"?>
     <!-- <link href="../../lib/select2/css/select2.min.css" rel="stylesheet">
     <link href="../../lib/datatables.net-responsive-dt/css/responsive.dataTables.min.css" rel="stylesheet"> -->
-    <!-- <link href="../../assets/css/dashforge.css" rel="stylesheet"> -->
+    <link href="../../assets/css/search.css" rel="stylesheet">
   </head>
   <body class="mn-ht-100v d-flex flex-column">
     <?php include "../partial/navbar.php"?>
@@ -23,11 +23,17 @@
               <!-- <a href="../beranda" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center mg-r-5"><ion-icon name="arrow-back-outline" class="mg-y-2 tx-22"></ion-icon></a> -->
               <h4 class="tx-poppins tx-medium mg-b-0">Menu Laporan</h4>
             </div>
-            <div>
-            <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Cari..." title="Type in a category"><!-- Kalau ada button di kanan -->
-            </div>
           </div>
           <!-- Untuk judul halaman. Hanya dipakai jika diperlukan -->
+          <div class="col-10 l--10">
+            <div class="card bd-0 mg-b-10 mg-md-b-20">
+              <div class="card-header bd-0 pd-md-y-10">
+                <img class="search-icon" src="../../assets/img/search.png">
+                <input placeholder="Cari Menu Laporan" type="text" class="search" id="mySearch" onkeyup="myFunction()" style="font-size:15px">
+              </div>
+            </div>
+          </div>
+      
       <div class="row">
         <ul id="myMenu" class="list-unstyled">
           <div class="media align-items-center">
