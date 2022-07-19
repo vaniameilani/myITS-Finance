@@ -52,7 +52,7 @@
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
-                          <a href="https://google.com" target="_blank">
+                          <a href="../keuangan/daftar-rba.php" target="_blank">
                             <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/finance/rba.svg" class="wd-40 mg-r-15" alt="">
@@ -69,7 +69,7 @@
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
-                          <a href="https://google.com" target="_blank">
+                          <a href="../keuangan/persetujuan-rup.php" target="_blank">
                             <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/finance/approve-rup.svg" class="wd-40 mg-r-15" alt="">
@@ -86,7 +86,7 @@
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
-                          <a href="https://google.com" target="_blank">
+                          <a href="../laporan-perencanaan/serapan-anggaran-ma.php" target="_blank">
                             <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/icon-app/ITS-Tarif.svg" class="wd-40 mg-r-15" alt="">
@@ -154,7 +154,7 @@
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
-                          <a href="https://google.com" target="_blank">
+                          <a href="../pengaturan/pengaturan-kunci-RUP.php" target="_blank">
                             <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/finance/set-kunci.svg" class="wd-40 mg-r-15" alt="">
