@@ -31,8 +31,8 @@
           <div class="row row-sm">
 
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mg-b-20 d-flex align-items-center justify-content-start">
-              <a href="#kegiatan-tambah" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center mg-r-15" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="mg-y-2 tx-18 mg-r-10"></ion-icon>Tambah Induk Mata Anggaran</a>
-              <a href="#kegiatan-tambah" class="btn dropdown tx-poppins tx-medium d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale" style="background-color: white; color: black; border: 1px solid #DADDE5;"><ion-icon name="add-outline" class="mg-y-2 tx-18 mg-r-10"></ion-icon>Filter</a>
+              <a href="../keuangan/tambah-induk-mata-anggaran.php" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center mg-r-15" data-animation="effect-scale"><ion-icon name="add-outline" class="mg-y-2 tx-18 mg-r-10"></ion-icon>Tambah Induk Mata Anggaran</a>
+              <a href="#kegiatan-tambah" class="btn dropdown tx-poppins tx-medium d-flex justify-content-center" data-toggle="modal" data-animation="effect-scale" style="background-color: white; color: black; border: 1px solid #DADDE5;"><ion-icon name="key-outline" class="mg-y-2 tx-18 mg-r-10"></ion-icon>Filter</a>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
               <div class="card bd-0">
@@ -314,16 +314,41 @@
 
                         <tr class="bd-b">
                           <td class="table-its">
-                            <p class="tx-semibold mg-b-0" style="color: #1878F2;">111921.1119.01</p>
+                            <p class="tx-semibold mg-b-0" style="color: #1878F2;">113311</p>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0">Setara Kas Lainnya</p>
+                            <p class="mg-b-0">Deposito</p>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0">KAS</p>
+                            <p class="mg-b-0">-</p>
                           </td>
                           <td class="table-its">
-                            <p class="mg-b-0">D</p>
+                            <p class="mg-b-0">-</p>
+                          </td>
+                          <td class="table-its">
+                            <p class="mg-b-0">-</p>
+                          </td>
+                          <td class="table-its">
+                            <p class="mg-b-0">-</p>
+                          </td>
+                          <td class="table-its">                            
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-start">
+                              <a href="../keuangan/tambah-sub-mata-anggaran.php" class="btn btn-its-3 d-flex justify-content-center" data-animation="effect-scale"><ion-icon name="add-outline" class="tx-18"></ion-icon></a>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class="bd-b">
+                          <td class="table-its">
+                            <a href="detail-mata-anggaran-piutang.php"><p class="tx-semibold mg-b-0" style="color: #1878F2;">115712.1131.01</p></a>
+                          </td>
+                          <td class="table-its">
+                            <p class="mg-b-0">Piutang UKT D3</p>
+                          </td>
+                          <td class="table-its">
+                            <p class="mg-b-0">-</p>
+                          </td>
+                          <td class="table-its">
+                            <p class="mg-b-0">-</p>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0">-</p>

@@ -91,7 +91,7 @@
                             <p class="mg-b-0">S1 TEKNIK INDUSTRI SAL N-2</p>
                           </td>
                           <td class="table-its">
-                            <p class="tx-semibold mg-b-0" style="color: #1878F2;">Pengadaan Peralatan Hybrid Class Dept. Teknik Industri</p>
+                            <a href="detail-rup.php"><p class="tx-semibold mg-b-0" style="color: #1878F2;">Pengadaan Peralatan Hybrid Class Dept. Teknik Industri</p></a>
                           </td>
                           <td class="table-its">
                             <p class="mg-b-0"><span class="badge badge-light rounded-its-50 tx-poppins tx-semibold tx-12 mg-l-5">Draft</span></p>

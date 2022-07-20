@@ -23,7 +23,7 @@
           <!-- Untuk judul halaman. Hanya dipakai jika diperlukan -->
           <div class="d-flex align-items-center justify-content-between mg-b-20 mg-sm-b-20 mg-lg-b-20">
             <div class="d-flex align-items-center justify-content-start">
-              <a href="../keuangan/daftar-rba.php" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center mg-r-5"><ion-icon name="arrow-back-outline" class="mg-y-2 tx-22"></ion-icon></a>
+              <a href="daftar-rba.php" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center mg-r-5"><ion-icon name="arrow-back-outline" class="mg-y-2 tx-22"></ion-icon></a>
               <h4 class="tx-poppins tx-medium mg-b-0">Tambah RBA</h4>
             </div>
             <div>
@@ -104,7 +104,8 @@
                             </div>
                         </div>              
                         <!-- <a href="#kegiatan-tambah" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center mg-r-10" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="mg-y-2 tx-18 mg-r-10"></ion-icon>Tambah RBA</a> -->
-                        <button formaction="../keuangan/tambah-rba-2.php" type="submit" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center float-right" data-toggle="modal" data-animation="effect-scale">Selanjutnya<ion-icon name="arrow-forward-outline" class="mg-y-1 tx-18 mg-l-10"></ion-icon></button>
+                        <a href="tambah-rba-2.php" type="button" class="btn btn-its-3 tx-poppins tx-medium float-right d-flex justify-content-center mg-r-10" data-animation="effect-scale">Selanjutnya<ion-icon name="arrow-forward-outline" class="mg-y-3 tx-20 mg-l-10"></ion-icon></a>
+                        <!-- <button formaction="../keuangan/tambah-rba-2.php" type="submit" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center float-right" data-animation="effect-scale">Selanjutnya<ion-icon name="arrow-forward-outline" class="mg-y-1 tx-18 mg-l-10"></ion-icon></button> -->
                     </form>
                   </div>
                 </div>

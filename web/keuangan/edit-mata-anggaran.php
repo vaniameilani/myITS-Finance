@@ -23,7 +23,7 @@
           <!-- Untuk judul halaman. Hanya dipakai jika diperlukan -->
           <div class="d-flex align-items-center justify-content-between mg-b-20 mg-sm-b-20 mg-lg-b-20">
             <div class="d-flex align-items-center justify-content-start">
-              <a href="index.php" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center mg-r-5"><ion-icon name="arrow-back-outline" class="mg-y-2 tx-22"></ion-icon></a>
+              <a href="mata-anggaran.php" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center mg-r-5"><ion-icon name="arrow-back-outline" class="mg-y-2 tx-22"></ion-icon></a>
               <h4 class="tx-poppins tx-medium mg-b-0">Edit Mata Anggaran</h4>
             </div>
             <div>
@@ -106,7 +106,8 @@
                         </div>
                                      
                         <!-- NGGA BISA DISPASIIN ANTAR TOMBOLNYAA HIKS -->
-                        <button type="submit" class="btn btn-its-3 tx-poppins tx-medium float-right mg-r-10">Simpan</button>
+                        <a href="detail-mata-anggaran-piutang 2.php" type="submit" class="btn btn-its-3 tx-poppins tx-medium float-right mg-r-10" data-animation="effect-scale">Simpan</a>
+                        <!-- <button type="submit" class="btn btn-its-3 tx-poppins tx-medium float-right mg-r-10">Simpan</button> -->
                         <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-right" data-dismiss="modal">Batal</button>
                     </form>
                   </div>

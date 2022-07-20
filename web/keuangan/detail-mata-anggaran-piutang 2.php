@@ -47,7 +47,7 @@
                       <div class="col-4 col-md-3 tx-13 tx-color-03 mg-b-10"> Saldo Normal </div>
                       <div class="col-8 col-md-9 mg-b-10"> Debet </div>
                       <div class="col-4 col-md-3 tx-13 tx-color-03 mg-b-10"> Jenis Akun </div>
-                      <div class="col-8 col-md-9 mg-b-10"> Mata Anggaran Penerimaan </div>
+                      <div class="col-8 col-md-9 mg-b-10"> Mata Anggaran Keluaran </div>
                       <div class="col-4 col-md-3 tx-13 tx-color-03 mg-b-10"> Kategori MA </div>
                       <div class="col-8 col-md-9 mg-b-10"> Umum </div>
                       <div class="col-4 col-md-3 tx-13 tx-color-03 mg-b-10"> Kode Kegiatan Output </div>

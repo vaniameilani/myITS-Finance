@@ -93,7 +93,8 @@
                       </div>
                     </div>
                   </div>
-                  <button type="button" class="btn btn-success tx-poppins tx-medium float-right">Setujui</button>
+                  <a href="#setujui" class="btn btn-success tx-poppins tx-medium float-right" data-toggle="modal"  data-animation="effect-scale">Setujui</a>
+                  <!-- <button type="button" class="btn btn-success tx-poppins tx-medium float-right">Setujui</button> -->
                   <button type="button" class="btn btn-danger tx-poppins tx-medium float-right mg-r-8">Tolak</button>
                 </div>
               </div>
@@ -142,6 +143,26 @@
 
           </div><!-- row -->
         </div><!-- container -->
+      </div>
+    </div>
+
+    <div class="modal fade effect-scale" id="setujui" tabindex="-1" role="dialog" aria-labelledby="tambah-satuan" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bd-0 d-flex align-items-center pd-b-10">
+            <h5 class="tx-poppins tx-medium mg-b-0">Persetujuan RUP</h5>
+            <!-- <button type="button" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center" data-dismiss="modal"><ion-icon name="close" class="mg-y-2 tx-18"></ion-icon></button> -->
+          </div>
+          <div class="bd-0 d-flex align-items-center pd-b-0 pd-l-15">
+            <p>Apakah Anda yakin untuk menyetujui Pengajuan RUP ini?</p>
+          </div>
+          <form>
+            <div class="modal-footer">
+              <a href="detail-rup.php" type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</a>
+              <a href="detail-rup-approved.php" type="submit" class="btn btn-its-3 tx-poppins tx-medium" data-animation="effect-scale">Simpan</a>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <?php include "../partial/footer.php" ?>

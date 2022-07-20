@@ -93,8 +93,7 @@
                       </div>
                     </div>
                   </div>
-                  <button type="button" class="btn btn-success tx-poppins tx-medium float-right">Setujui</button>
-                  <button type="button" class="btn btn-danger tx-poppins tx-medium float-right mg-r-8">Tolak</button>
+                  <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-right" style="border: 1px solid #DADDE5;">Batal Review</button>
                 </div>
               </div>
               <div class="card bd-0 mg-b-20">

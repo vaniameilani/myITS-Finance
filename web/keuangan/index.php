@@ -47,7 +47,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Daftar Mata Anggaran</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>
@@ -64,7 +64,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Pengajuan UMK</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>
@@ -84,7 +84,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Daftar Mata Anggaran (Unit)</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>
@@ -101,7 +101,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Pengembalian UMK</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>
@@ -121,7 +121,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Daftar Standar Satuan RBA</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>
@@ -138,7 +138,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Transfer Alokasi</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>
@@ -158,7 +158,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Daftar RBA</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>
@@ -175,7 +175,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Terima Alokasi</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Terima Alokasi</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Terima Alokasi</p> -->
                       </div> 
                     </div>
                   </div>
@@ -195,7 +195,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Pagu Unit</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>
@@ -211,8 +211,8 @@
                        <img src="../../assets/img/finance/approve-rup.svg" class="wd-50 mg-r-15" alt="">
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
-                        <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Approve RUP</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Persetujuan RUP</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>
@@ -232,7 +232,7 @@
                       </div>
                       <div class="card-header bd-0 pd-md-y-20">
                         <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Rencana Pendapatan</p>
-                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p>
+                        <!-- <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan . . .</p> -->
                       </div> 
                     </div>
                   </div>

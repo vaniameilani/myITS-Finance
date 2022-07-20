@@ -23,7 +23,7 @@
           <!-- Untuk judul halaman. Hanya dipakai jika diperlukan -->
           <div class="d-flex align-items-center justify-content-between mg-b-20 mg-sm-b-20 mg-lg-b-20">
             <div class="d-flex align-items-center justify-content-start">
-              <a href="index.php" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center mg-r-5"><ion-icon name="arrow-back-outline" class="mg-y-2 tx-22"></ion-icon></a>
+              <a href="tambah-rba.php" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center mg-r-5"><ion-icon name="arrow-back-outline" class="mg-y-2 tx-22"></ion-icon></a>
               <h4 class="tx-poppins tx-medium mg-b-0">Tambah RBA</h4>
             </div>
             <div>
@@ -147,9 +147,10 @@
                         </div>
 
                         <div class="mg-t-20">
-                          <button type="submit" class="btn btn-its-3 tx-poppins tx-medium float-right">Simpan</button>
-                          <a href="../keuangan/daftar-rba.php" type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-right mg-r-8" data-dismiss="modal">Batal</a>
-                          <button onclick="history.back()" type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-left" data-dismiss="modal" data-animation="effect-scale" style="background-color: #F5F6FA;"><ion-icon name="arrow-back-outline" class="mg-y-1 tx-18 mg-r-10"></ion-icon>Sebelumnya</a>
+                          <a href="detail-rba.php" type="submit" class="btn btn-its-3 tx-poppins tx-medium float-right mg-r-10" data-animation="effect-scale">Simpan</a>
+                          <a href="daftar-rba.php" type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-right mg-r-8" data-dismiss="modal">Batal</a>
+                          <a href="tambah-rba-1.php" type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-left d-flex justify-content-center" data-animation="effect-scale" style="background-color: #F5F6FA;"><ion-icon name="arrow-back-outline" class="mg-y-1 tx-18 mg-r-10"></ion-icon>Sebelumnya</a>
+                          <!-- <button onclick="history.back()" type="button" class="btn btn-its-custom-1 tx-poppins tx-medium float-left d-flex justify-content-center" data-dismiss="modal" data-animation="effect-scale" style="background-color: #F5F6FA;"><ion-icon name="arrow-back-outline" class="mg-y-1 tx-18 mg-r-10"></ion-icon>Sebelumnya</a> -->
                         </div>
                     </form>
                   </div>

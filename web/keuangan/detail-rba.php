@@ -17,7 +17,7 @@
           <!-- Untuk judul halaman. Hanya dipakai jika diperlukan -->
           <div class="d-flex align-items-center justify-content-between mg-b-20 mg-sm-b-20 mg-lg-b-20">
             <div class="d-flex align-items-center justify-content-start">
-              <a href="index.php" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center mg-r-5"><ion-icon name="arrow-back-outline" class="mg-y-2 tx-22"></ion-icon></a>
+              <a href="daftar-rba.php" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center mg-r-5"><ion-icon name="arrow-back-outline" class="mg-y-2 tx-22"></ion-icon></a>
               <h4 class="tx-poppins tx-medium mg-b-0">Detail RBA</h4>
             </div>
             <div>
@@ -101,7 +101,7 @@
                         <p class="tx-poppins tx-medium tx-15">Uraian RBA</p>
                       </div>
                       <div class="col-6">
-                        <a href="#tambah-rba" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center float-right mg-r-15" data-toggle="modal" data-animation="effect-scale">Tambah</a>
+                        <a href="#tambah-rba" class="btn btn-its-3 tx-poppins tx-medium d-flex justify-content-center float-right mg-r-15" data-toggle="modal" data-animation="effect-scale"><ion-icon name="add-outline" class="mg-y-2 tx-18 mg-r-10"></ion-icon>Tambah</a>
                       </div>
                       <p class="mg-b-0"><span class="badge badge-danger-transparent tx-poppins tx-semibold tx-12 mg-l-5">Belum ada data</span></p>
                     </div>
@@ -145,8 +145,8 @@
               </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</button>
-              <button type="submit" class="btn btn-its-3 tx-poppins tx-medium">Tambah</button>
+              <a href="daftar-rba.php" type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</a>
+              <a href="detail-rba.php" type="submit" class="btn btn-its-3 tx-poppins tx-medium" data-animation="effect-scale">Simpan</a>
             </div>
           </form>
         </div>

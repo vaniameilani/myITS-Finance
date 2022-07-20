@@ -61,8 +61,8 @@
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
-                          <a href="../keuangan/daftar-rba.php" target="_blank">
-                            <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
+                          <a href="../keuangan/daftar-rba.php">
+                            <div class="pd-x-15 pd-y-30 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/finance/rba.svg" class="wd-40 mg-r-15" alt="">
                                 <div class="media-body crop-text-1">
@@ -78,12 +78,12 @@
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
-                          <a href="../keuangan/persetujuan-rup.php" target="_blank">
-                            <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
+                          <a href="../keuangan/persetujuan-rup.php">
+                            <div class="pd-x-15 pd-y-30 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/finance/approve-rup.svg" class="wd-40 mg-r-15" alt="">
                                 <div class="media-body crop-text-1">
-                                  <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Approve RUP</p>
+                                  <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Persetujuan RUP</p>
                                   <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan aplikasi di sini.</p>
                                 </div>
                               </div>
@@ -95,7 +95,7 @@
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
-                          <a href="../laporan-perencanaan/serapan-anggaran-ma.php" target="_blank">
+                          <a href="../laporan-perencanaan/serapan-anggaran-ma.php">
                             <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/icon-app/ITS-Tarif.svg" class="wd-40 mg-r-15" alt="">
@@ -113,7 +113,7 @@
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
                           <a href="https://google.com" target="_blank">
-                            <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
+                            <div class="pd-x-15 pd-y-30 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/finance/approve-rup.svg" class="wd-40 mg-r-15" alt="">
                                 <div class="media-body crop-text-1">
@@ -130,7 +130,7 @@
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
                           <a href="https://google.com" target="_blank">
-                            <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
+                            <div class="pd-x-15 pd-y-30 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/finance/upah-minimum.svg" class="wd-40 mg-r-15" alt="">
                                 <div class="media-body crop-text-1">
@@ -147,7 +147,7 @@
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
                           <a href="https://google.com" target="_blank">
-                            <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
+                            <div class="pd-x-15 pd-y-30 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/finance/rba.svg" class="wd-40 mg-r-15" alt="">
                                 <div class="media-body crop-text-1">
@@ -163,12 +163,12 @@
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                       <div class="card bd-0 mg-b-10 mg-md-b-20">
                         <div class="card-body pd-0">
-                          <a href="../pengaturan/pengaturan-kunci-RUP.php" target="_blank">
-                            <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
+                          <a href="../pengaturan/pengaturan-kunci-RUP.php">
+                            <div class="pd-x-15 pd-y-30 rounded-its-10 hover-its-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/finance/set-kunci.svg" class="wd-40 mg-r-15" alt="">
                                 <div class="media-body crop-text-1">
-                                  <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Set Kunci RUP</p>
+                                  <p class="tx-poppins tx-medium tx-color-01 mg-b-0 crop-text-1">Pengaturan Kunci RUP</p>
                                   <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 ht-20" title="Keterangan aplikasi di sini.">Keterangan aplikasi di sini.</p>
                                 </div>
                               </div>
@@ -179,7 +179,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                       <a href="#app-fav" data-toggle="modal" data-animation="effect-scale">
-                        <div class="pd-x-15 pd-y-20 rounded-its-10 hover-its-1">
+                        <div class="pd-x-15 pd-y-30 rounded-its-10 hover-its-1">
                           <div class="media d-flex align-items-center">
                             <span class="wd-40 ht-40 rounded-circle bg-black-1 tx-color-01 mg-r-15 d-flex justify-content-center align-items-center"><ion-icon name="pencil" class="tx-22"></ion-icon></span>
                             <div class="media-body crop-text-1">

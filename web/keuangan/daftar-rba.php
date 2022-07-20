@@ -85,7 +85,7 @@
                             <p class="mg-b-0">NON PNBP</p>
                           </td>
                           <td class="table-its">                            
-                            <p class="mg-b-0">-</p>
+                            <p class="mg-b-0"><span class="badge badge-success-transparent rounded-its-50 tx-poppins tx-semibold tx-12 mg-l-5">Semua telah diproses</span></p>
                           </td>
                         </tr>
 
@@ -143,7 +143,7 @@
                             <p class="mg-b-0">NON PNBP</p>
                           </td>
                           <td class="table-its">                            
-                            <p class="mg-b-0">-</p>
+                            <p class="mg-b-0" style="color: black;"><span class="badge badge-secondary-transparent rounded-its-50 tx-poppins tx-semibold tx-12 mg-l-5">Semua belum diproses</span></p>
                           </td>
                         </tr>
 
@@ -201,7 +201,7 @@
                             <p class="mg-b-0">NON PNBP</p>
                           </td>
                           <td class="table-its">                            
-                            <p class="mg-b-0">-</p>
+                            <p class="mg-b-0"><span class="badge badge-success-transparent rounded-its-50 tx-poppins tx-semibold tx-12 mg-l-5">Semua telah diproses</span></p>
                           </td>
                         </tr>
                       </tbody>
