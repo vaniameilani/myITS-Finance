@@ -9,8 +9,11 @@
         text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-box-orient: vertical;
+        
       }
+
     </style>
+    <link href="../../assets/css/box-r.css" rel="stylesheet">
   </head>
   <body class="mn-ht-100v d-flex flex-column">
     <?php include "../partial/navbar.php"?>
@@ -31,8 +34,14 @@
                     </div>
                     <p class="tx-poppins tx-medium tx-white tx-20 tx-md-24 mg-b-0">Selamat datang, Santi</p>
                     <p class="tx-white">Perencanaan Keuangan</p>
+                    <div class="pos-relative t-70">
+                    <p class="rcorners1 tx-poppins"><img src="../../assets/img/announcement.svg" class="wd-30 ht-30 mg-b-10 mg-r-10">Unduh <a href="#" class="tx-bold">Modul myITS Finance</a> disini
+                    <a href="#"><span class="next1"><b>></b></span></a>
+                    <a href="#"><span class="prev1"><b><</b></span></a>
+                    </p>
                   </div>
-                  <div class="pos-absolute b-40 l-40">
+                  </div>
+                 
                     <!-- <a href="../profil">
                       <p class="tx-poppins tx-medium tx-white mg-b-0 d-flex align-items-center">Kelola Akun <ion-icon name="arrow-forward" class="mg-l-5 tx-18 mg-b-2"></ion-icon></p>
                     </a> -->
