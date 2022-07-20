@@ -19,7 +19,7 @@
                 </button>
                     <div class="dropdown1-container">
                         <ul class="list-unstyled">
-                            <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
+                            <li class="nav-item mg-l-5"><a href="../keuangan/mata-anggaran.php" class="nav-link-its">
                                 <img src="../../assets/img/finance/daftar-anggaran.svg" class="wd-20 mg-r-15">Daftar Mata Anggaran</a></li>
                             <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
                                 <img src="../../assets/img/icon-app/ITS-Tarif.svg" class="wd-20 mg-r-15">Daftar Mata Anggaran (Unit)</a></li>
@@ -35,7 +35,7 @@
                                             <img src="../../assets/img/icon-app/ITS-Tarif.svg" class="wd-20 mg-r-15">Daftar Standar Satuan RBA</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link-its">
                                             <img src="../../assets/img/finance/pagu-unit.svg" class="wd-20 mg-r-15">Pagu Unit</a></li>
-                                        <li class="nav-item"><a href="#" class="nav-link-its">
+                                        <li class="nav-item"><a href="..keuangan/daftar-rba.php" class="nav-link-its">
                                             <img src="../../assets/img/finance/rba.svg" class="wd-20 mg-r-15">Daftar RBA</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link-its">
                                             <img src="../../assets/img/icon-app/ITS-Tarif.svg" class="wd-20 mg-r-15">Rencana Pendapatan</a></li>
@@ -50,7 +50,7 @@
                                 <img src="../../assets/img/finance/transfer-alokasi.svg" class="wd-20 mg-r-15">Transfer Alokasi</a></li>
                             <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
                                 <img src="../../assets/img/icon-app/ITS-Tarif.svg" class="wd-20 mg-r-15">Terima Alokasi</a></li>
-                            <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
+                            <li class="nav-item mg-l-5"><a href="../keuangan/persetujuan-rup.php" class="nav-link-its">
                                 <img src="../../assets/img/finance/approve-rup.svg" class="wd-20 mg-r-15">Approve RUP</a></li>
                         </ul>
                     </div>
@@ -72,7 +72,7 @@
                                 <img src="../../assets/img/finance/upah-minimum.svg" class="wd-20 mg-r-15">Sumber Dana</a></li>
                             <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
                                 <img src="../../assets/img/finance/satuan.svg" class="wd-20 mg-r-15">Standar Satuan</a></li>
-                            <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
+                            <li class="nav-item mg-l-5"><a href="../data-referensi/satuan.php" class="nav-link-its">
                                 <img src="../../assets/img/finance/satuan.svg" class="wd-20 mg-r-15">Satuan</a></li>
                             <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
                                 <img src="../../assets/img/folder.svg" class="wd-20 mg-r-15">Program Kerja</a></li>
@@ -153,7 +153,7 @@
                                             <img src="../../assets/img/finance/monitoring.svg" class="wd-20 mg-r-15">Serapan Anggaran per MAK</a></li>
                                         <li class="nav-item"><a href="#" class="nav-link-its">
                                             <img src="../../assets/img/finance/monitoring.svg" class="wd-20 mg-r-15">Serapan Anggaran per Kegiatan</a></li>
-                                        <li class="nav-item"><a href="#" class="nav-link-its">
+                                        <li class="nav-item"><a href="../laporan-perencanaan/serapan-anggaran-ma.php" class="nav-link-its">
                                             <img src="../../assets/img/finance/monitoring.svg" class="wd-20 mg-r-15">Serapan Anggaran per MA</a></li>
                                     </ul>    
                                 </div>
@@ -171,7 +171,7 @@
                         <ul class="list-unstyled">
                             <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
                                 <img src="../../assets/img/finance/set-kunci.svg" class="wd-20 mg-r-15">Pengaturan Kunci RBA</a></li>
-                            <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
+                            <li class="nav-item mg-l-5"><a href="../pengaturan/pengaturan-kunci-RUP.php" class="nav-link-its">
                                 <img src="../../assets/img/finance/set-kunci.svg" class="wd-20 mg-r-15">Pengaturan Kunci RUP</a></li>
                             <li class="nav-item mg-l-5"><a href="#" class="nav-link-its">
                                 <img src="../../assets/img/finance/set-kunci.svg" class="wd-20 mg-r-15">Pengaturan Kunci SBI</a></li>
